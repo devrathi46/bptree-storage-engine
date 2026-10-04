@@ -1,7 +1,12 @@
 # compiled binaries
 main
 Node
+benchmark
+test_bplustree
 tests/test_bplustree
+tests/test_buffer_pool
+tests/test_disk_manager
+tests/test_disk_lookup
 *.o
 *.out
 
@@ -12,3 +17,6 @@ tests/test_bplustree
 # OS / editor
 .DS_Store
 .vscode/
+
+# Claude Code local settings (per-machine, not project content)
+.claude/settings.local.json

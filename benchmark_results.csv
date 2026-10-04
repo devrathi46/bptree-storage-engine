@@ -1,0 +1,13 @@
+dataset_size,operation,method,num_queries,total_wall_clock_ms,avg_wall_clock_us,total_page_reads,avg_page_reads
+1000,point_lookup,indexed,200,1.01967,5.09833,5,0.025
+1000,point_lookup,full_scan,200,1.173,5.865,5,0.025
+1000,range_scan,indexed,20,0.114125,5.70625,5,0.25
+1000,range_scan,full_scan,20,0.265792,13.2896,5,0.25
+10000,point_lookup,indexed,200,0.877916,4.38958,52,0.26
+10000,point_lookup,full_scan,200,10.0813,50.4067,53,0.265
+10000,range_scan,indexed,20,0.158792,7.9396,26,1.3
+10000,range_scan,full_scan,20,2.53871,126.935,53,2.65
+100000,point_lookup,indexed,200,1.46646,7.33229,182,0.91
+100000,point_lookup,full_scan,200,154.565,772.826,53338,266.69
+100000,range_scan,indexed,20,0.501334,25.0667,114,5.7
+100000,range_scan,full_scan,20,114.102,5705.1,10080,504
