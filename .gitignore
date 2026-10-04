@@ -1,0 +1,14 @@
+# compiled binaries
+main
+Node
+tests/test_bplustree
+*.o
+*.out
+
+# disk-backed storage artifacts (added in phase 2)
+*.db
+*.dat
+
+# OS / editor
+.DS_Store
+.vscode/
